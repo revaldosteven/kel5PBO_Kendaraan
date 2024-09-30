@@ -84,5 +84,20 @@ public class Main {
          System.out.println("Kecepatan Maksimal  : " + truk.getkecepatan_maksimal());
          System.out.println("Bahan Bakar         : " + truk.getbahan_bakar());
          System.out.println("Fitur               : " + truk.getfitur());
+         
+         Roni_Pesawat pesawat = new Roni_Pesawat();
+         
+         pesawat.settipe("Pesawat Komersial");
+         pesawat.setkapasitas_penumpang("500 Orang");
+         pesawat.setkecepatan_maksimal("950 KM");
+         pesawat.setbahan_bakar("Avtur");
+         pesawat.setfitur("Kabin, AC, Toilet");
+         
+         System.out.println("\t Pesawat");
+         System.out.println("Tipe                : " + pesawat.gettipe());
+         System.out.println("Kapasitas Penumpang : " + pesawat.getkapasitas_penumpang());
+         System.out.println("Kecepatan Maksimal  : " + pesawat.getkecepatan_maksimal());
+         System.out.println("Bahan Bakar         : " + pesawat.getbahan_bakar());
+         System.out.println("Fitur               : " + pesawat.getfitur());
     }
 }
