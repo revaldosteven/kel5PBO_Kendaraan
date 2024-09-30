@@ -28,7 +28,7 @@ public class Main {
          Wifna_Kapal kapal = new Wifna_Kapal();
          
          kapal.settipe("Kapal Feri");
-         kapal.setkapasitas_penumpang("Delapan Ratus Orang");
+         kapal.setkapasitas_penumpang("800 Orang");
          kapal.setkecepatan_maksimal("45 knot/83 KM");
          kapal.setbahan_bakar("Diesel");
          kapal.setfitur("Kamar Tidur, Restoran, Kolam Renang, Hiburan Live, Fasilitas Penyelamatan Darurat ");
@@ -39,6 +39,21 @@ public class Main {
          System.out.println("Kecepatan Maksimal  : " + kapal.getkecepatan_maksimal());
          System.out.println("Bahan Bakar         : " + kapal.getbahan_bakar());
          System.out.println("Fitur               : " + kapal.getfitur());
+
+         Isna_Motor motor = new Isna_Motor();
+         
+         motor.settipe("Yamaha Aerox");
+         motor.setkapasitas_penumpang("2 Orang");
+         motor.setkecepatan_maksimal("160 KM");
+         motor.setbahan_bakar("Bensin");
+         motor.setfitur("CBS/ABS, Electric Starter, Lampu LED");
+         
+         System.out.println("\t Motor");
+         System.out.println("Tipe                : " + motor.gettipe());
+         System.out.println("Kapasitas Penumpang : " + motor.getkapasitas_penumpang());
+         System.out.println("Kecepatan Maksimal  : " + motor.getkecepatan_maksimal());
+         System.out.println("Bahan Bakar         : " + motor.getbahan_bakar());
+         System.out.println("Fitur               : " + motor.getfitur());
 
     }
 }
