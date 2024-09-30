@@ -99,5 +99,20 @@ public class Main {
          System.out.println("Kecepatan Maksimal  : " + pesawat.getkecepatan_maksimal());
          System.out.println("Bahan Bakar         : " + pesawat.getbahan_bakar());
          System.out.println("Fitur               : " + pesawat.getfitur());
+         
+         Yusron_Bus bus = new Yusron_Bus();
+         
+         bus.settipe("Bus Pariwisata");
+         bus.setkapasitas_penumpang("60 Orang");
+         bus.setkecepatan_maksimal("110 KM");
+         bus.setbahan_bakar("Solar");
+         bus.setfitur("DVD Player, Wi-Fi, Toilet");
+         
+         System.out.println("\t Bus");
+         System.out.println("Tipe                : " + bus.gettipe());
+         System.out.println("Kapasitas Penumpang : " + bus.getkapasitas_penumpang());
+         System.out.println("Kecepatan Maksimal  : " + bus.getkecepatan_maksimal());
+         System.out.println("Bahan Bakar         : " + bus.getbahan_bakar());
+         System.out.println("Fitur               : " + bus.getfitur());
     }
 }

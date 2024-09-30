@@ -52,3 +52,4 @@ public class Revaldo_Mobil {
         return fitur;
     }
 }
+ 
