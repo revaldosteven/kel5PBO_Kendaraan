@@ -42,7 +42,7 @@ public class Main {
 
          Isna_Motor motor = new Isna_Motor();
          
-         motor.settipe("Yamaha Aerox");
+         motor.settipe("Yamaha Aerox"); 
          motor.setkapasitas_penumpang("2 Orang");
          motor.setkecepatan_maksimal("160 KM");
          motor.setbahan_bakar("Bensin");
@@ -54,6 +54,22 @@ public class Main {
          System.out.println("Kecepatan Maksimal  : " + motor.getkecepatan_maksimal());
          System.out.println("Bahan Bakar         : " + motor.getbahan_bakar());
          System.out.println("Fitur               : " + motor.getfitur());
+         
+         Zainul_Keretaapi keretaapi = new Zainul_Keretaapi();
+         
+         keretaapi.settipe("Kereta Api Maglev");
+         keretaapi.setkapasitas_penumpang("600 Orang");
+         keretaapi.setkecepatan_maksimal("600 KM");
+         keretaapi.setbahan_bakar("Listrik");
+         keretaapi.setfitur("Kecepatan Tinggi, AC, USB Charger");
+         
+         System.out.println("\t Kereta Api");
+         System.out.println("Tipe                : " + keretaapi.gettipe());
+         System.out.println("Kapasitas Penumpang : " + keretaapi.getkapasitas_penumpang());
+         System.out.println("Kecepatan Maksimal  : " + keretaapi.getkecepatan_maksimal());
+         System.out.println("Bahan Bakar         : " + keretaapi.getbahan_bakar());
+         System.out.println("Fitur               : " + keretaapi.getfitur());
+
 
     }
 }
