@@ -70,6 +70,19 @@ public class Main {
          System.out.println("Bahan Bakar         : " + keretaapi.getbahan_bakar());
          System.out.println("Fitur               : " + keretaapi.getfitur());
 
-
+         Lutfi_Truk truk = new Lutfi_Truk();
+         
+         truk.settipe("Truk Box");
+         truk.setkapasitas_penumpang("2 Orang");
+         truk.setkecepatan_maksimal("160 KM");
+         truk.setbahan_bakar("Solar");
+         truk.setfitur("Sistem Navigasi, Kamera Belakang, Kontrol Stabilitas");
+         
+         System.out.println("\t Truk ");
+         System.out.println("Tipe                : " + truk.gettipe());
+         System.out.println("Kapasitas Penumpang : " + truk.getkapasitas_penumpang());
+         System.out.println("Kecepatan Maksimal  : " + truk.getkecepatan_maksimal());
+         System.out.println("Bahan Bakar         : " + truk.getbahan_bakar());
+         System.out.println("Fitur               : " + truk.getfitur());
     }
 }
