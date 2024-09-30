@@ -88,7 +88,7 @@ public class Main {
          Roni_Pesawat pesawat = new Roni_Pesawat();
          
          pesawat.settipe("Pesawat Komersial");
-         pesawat.setkapasitas_penumpang("500 Orang");
+         pesawat.setkapasitas_penumpang("550 Orang");
          pesawat.setkecepatan_maksimal("950 KM");
          pesawat.setbahan_bakar("Avtur");
          pesawat.setfitur("Kabin, AC, Toilet");
