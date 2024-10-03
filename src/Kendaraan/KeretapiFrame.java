@@ -8,12 +8,12 @@ package Kendaraan;
  *
  * @author Good_Poeple
  */
-public class MobilFrame extends javax.swing.JFrame {
+public class KeretapiFrame extends javax.swing.JFrame {
 
     /**
      * Creates new form MobilFrame
      */
-    public MobilFrame() {
+    public KeretapiFrame() {
         initComponents();
         reset();
     }
@@ -25,8 +25,8 @@ public class MobilFrame extends javax.swing.JFrame {
         jKecepatanMaksimal.setText("");
         jFitur.setText("");
         
-        tTipe.setText("");
         tKapasitasPenumpang.setText("");
+        tTipe.setText("");
         tBahanBakar.setText("");
         tKecepatanMaksimal.setText("");
         tFitur.setText("");
@@ -57,9 +57,9 @@ public class MobilFrame extends javax.swing.JFrame {
         jFitur = new javax.swing.JTextField();
         jPanel2 = new javax.swing.JPanel();
         jLabel7 = new javax.swing.JLabel();
-        tKapasitasPenumpang = new javax.swing.JLabel();
-        jLabel3 = new javax.swing.JLabel();
         tTipe = new javax.swing.JLabel();
+        jLabel3 = new javax.swing.JLabel();
+        tKapasitasPenumpang = new javax.swing.JLabel();
         jLabel9 = new javax.swing.JLabel();
         tBahanBakar = new javax.swing.JLabel();
         jLabel10 = new javax.swing.JLabel();
@@ -77,7 +77,7 @@ public class MobilFrame extends javax.swing.JFrame {
         jPanel1.setBackground(new java.awt.Color(205, 132, 241));
 
         jLabel1.setFont(new java.awt.Font("Serif", 1, 18)); // NOI18N
-        jLabel1.setText("Mobil");
+        jLabel1.setText("Kereta Api");
 
         jLabel2.setFont(new java.awt.Font("Serif", 1, 12)); // NOI18N
         jLabel2.setText("Tipe");
@@ -132,10 +132,10 @@ public class MobilFrame extends javax.swing.JFrame {
                 .addContainerGap()
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                        .addComponent(tKapasitasPenumpang, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(tTipe, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(jLabel7, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                     .addComponent(jLabel3)
-                    .addComponent(tTipe, javax.swing.GroupLayout.PREFERRED_SIZE, 160, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(tKapasitasPenumpang, javax.swing.GroupLayout.PREFERRED_SIZE, 160, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel9)
                     .addComponent(tBahanBakar, javax.swing.GroupLayout.PREFERRED_SIZE, 167, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel10)
@@ -153,11 +153,11 @@ public class MobilFrame extends javax.swing.JFrame {
                 .addGap(18, 18, 18)
                 .addComponent(jLabel7)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(tKapasitasPenumpang, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(tTipe, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addComponent(jLabel3)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(tTipe, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(tKapasitasPenumpang, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addComponent(jLabel9)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -191,7 +191,7 @@ public class MobilFrame extends javax.swing.JFrame {
             }
         });
 
-        jLabel14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Icon/sport-car (2).png"))); // NOI18N
+        jLabel14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Icon/train.png"))); // NOI18N
 
         bKembali.setBackground(new java.awt.Color(255, 255, 51));
         bKembali.setFont(new java.awt.Font("Serif", 1, 12)); // NOI18N
@@ -267,8 +267,8 @@ public class MobilFrame extends javax.swing.JFrame {
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(jLabel6)
                             .addComponent(jFitur, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(jLabel14, javax.swing.GroupLayout.PREFERRED_SIZE, 106, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(18, 18, 18)
+                        .addComponent(jLabel14, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE))
                     .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -300,18 +300,18 @@ public class MobilFrame extends javax.swing.JFrame {
 
     private void bTampilActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bTampilActionPerformed
         // TODO add your handling code here:
-        Revaldo_Mobil mobil = new Revaldo_Mobil();
-        mobil.settipe(jTipe.getText());
-        mobil.setkapasitas_penumpang(jKapasitasPenumpang.getText());
-        mobil.setbahan_bakar(jBahanBakar.getText());
-        mobil.setkecepatan_maksimal(jKecepatanMaksimal.getText());
-        mobil.setfitur(jFitur.getText());
+        Zainul_Keretaapi keretaapi = new Zainul_Keretaapi();
+        keretaapi.settipe(jTipe.getText());
+        keretaapi.setkapasitas_penumpang(jKapasitasPenumpang.getText());
+        keretaapi.setbahan_bakar(jBahanBakar.getText());
+        keretaapi.setkecepatan_maksimal(jKecepatanMaksimal.getText());
+        keretaapi.setfitur(jFitur.getText());
         
-        tTipe.setText(""+ mobil.gettipe());
-        tKapasitasPenumpang.setText("" + mobil.getkapasitas_penumpang());
-        tBahanBakar.setText("" + mobil.getbahan_bakar());
-        tKecepatanMaksimal.setText("" + mobil.getkecepatan_maksimal());
-        tFitur.setText("" + mobil.getfitur());
+        tTipe.setText(""+ keretaapi.gettipe());
+       tKapasitasPenumpang.setText("" + keretaapi.getkapasitas_penumpang());
+        tBahanBakar.setText("" + keretaapi.getbahan_bakar());
+        tKecepatanMaksimal.setText("" + keretaapi.getkecepatan_maksimal());
+        tFitur.setText("" + keretaapi.getfitur());
     }//GEN-LAST:event_bTampilActionPerformed
 
     private void bKembaliActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bKembaliActionPerformed
@@ -337,20 +337,21 @@ public class MobilFrame extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(MobilFrame.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(KeretapiFrame.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(MobilFrame.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(KeretapiFrame.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(MobilFrame.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(KeretapiFrame.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(MobilFrame.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(KeretapiFrame.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new MobilFrame().setVisible(true);
+                new KeretapiFrame().setVisible(true);
             }
         });
     }
