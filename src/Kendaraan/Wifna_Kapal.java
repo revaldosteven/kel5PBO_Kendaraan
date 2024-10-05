@@ -5,7 +5,7 @@
 package Kendaraan;
 
 /**
- *
+ * 
  * @author USER
  */
 public class Wifna_Kapal {
