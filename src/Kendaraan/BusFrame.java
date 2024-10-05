@@ -6,12 +6,12 @@ package Kendaraan;
 
 /**
  *
- * @author Good_Poeple
+ * @author Admin
  */
 public class BusFrame extends javax.swing.JFrame {
 
     /**
-     * Creates new form MobilFrame
+     * Creates new form BusFrame
      */
     public BusFrame() {
         initComponents();

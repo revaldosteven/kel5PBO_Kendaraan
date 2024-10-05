@@ -6,12 +6,12 @@ package Kendaraan;
 
 /**
  *
- * @author Good_Poeple
+ * @author USER
  */
 public class KapalFrame extends javax.swing.JFrame {
 
     /**
-     * Creates new form MobilFrame
+     * Creates new form KapalFrame
      */
     public KapalFrame() {
         initComponents();

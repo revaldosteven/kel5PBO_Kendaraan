@@ -6,12 +6,12 @@ package Kendaraan;
 
 /**
  *
- * @author Good_Poeple
+ * @author hp
  */
 public class TrukFrame extends javax.swing.JFrame {
 
     /**
-     * Creates new form MobilFrame
+     * Creates new form TrukFrame
      */
     public TrukFrame() {
         initComponents();

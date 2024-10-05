@@ -6,12 +6,12 @@ package Kendaraan;
 
 /**
  *
- * @author Good_Poeple
+ * @author LENOVO
  */
 public class PesawatFrame extends javax.swing.JFrame {
 
     /**
-     * Creates new form MobilFrame
+     * Creates new form PesawatFrame
      */
     public PesawatFrame() {
         initComponents();
