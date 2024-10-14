@@ -8,7 +8,7 @@ package Kendaraan;
  *
  * @author Admin
  */
-public class Yusron_Bus {
+public class Yusron_Bus extends kendaraan{
     String kelas_penumpang;
 
     public String getKelas_penumpang() {
