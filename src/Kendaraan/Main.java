@@ -49,6 +49,7 @@ public class Main {
          motor.setkecepatan_maksimal("160 KM");
          motor.setbahan_bakar("Bensin");
          motor.setfitur("CBS/ABS, Electric Starter, Lampu LED");
+         motor.setJenis_mesin("2 tak");
          
          System.out.println("\t Motor");
          System.out.println("Tipe                : " + motor.gettipe());
@@ -56,6 +57,7 @@ public class Main {
          System.out.println("Kecepatan Maksimal  : " + motor.getkecepatan_maksimal());
          System.out.println("Bahan Bakar         : " + motor.getbahan_bakar());
          System.out.println("Fitur               : " + motor.getfitur());
+         System.out.println("Jenis Mesin         : " + motor.getJenis_mesin());
          
          Zainul_Keretaapi keretaapi = new Zainul_Keretaapi();
          
