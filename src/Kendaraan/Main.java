@@ -111,6 +111,7 @@ public class Main {
          bus.setkecepatan_maksimal("110 KM");
          bus.setbahan_bakar("Solar");
          bus.setfitur("DVD Player, Wi-Fi, Toilet");
+         bus.setKelas_penumpang("Bus Ekonomi");
          
          System.out.println("\t Bus");
          System.out.println("Tipe                : " + bus.gettipe());
@@ -118,5 +119,6 @@ public class Main {
          System.out.println("Kecepatan Maksimal  : " + bus.getkecepatan_maksimal());
          System.out.println("Bahan Bakar         : " + bus.getbahan_bakar());
          System.out.println("Fitur               : " + bus.getfitur());
+         System.out.println("Kelas Penumpang     : " + bus.getKelas_penumpang());
     }
 }
