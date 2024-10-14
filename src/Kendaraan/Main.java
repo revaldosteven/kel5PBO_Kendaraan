@@ -34,6 +34,7 @@ public class Main {
          kapal.setkecepatan_maksimal("45 knot/83 KM");
          kapal.setbahan_bakar("Diesel");
          kapal.setfitur("Kamar Tidur, Restoran, Kolam Renang, Hiburan Live, Fasilitas Penyelamatan Darurat ");
+         kapal.setJenis_lambung("Lambung Tunggal");
          
          System.out.println("\t Kapal");
          System.out.println("Tipe                : " + kapal.gettipe());
@@ -41,6 +42,7 @@ public class Main {
          System.out.println("Kecepatan Maksimal  : " + kapal.getkecepatan_maksimal());
          System.out.println("Bahan Bakar         : " + kapal.getbahan_bakar());
          System.out.println("Fitur               : " + kapal.getfitur());
+         System.out.println("Jenis Lambung       : " + kapal.getJenis_lambung());
 
          Isna_Motor motor = new Isna_Motor();
          
