@@ -9,14 +9,14 @@ package Kendaraan;
  * @author LENOVO
  */
 public class Roni_Pesawat extends kendaraan{
-    String jenis_sayapString;
+    String jenis_sayap;
 
-    public String getJenis_sayapString() {
-        return jenis_sayapString;
+    public String getJenis_sayap() {
+        return jenis_sayap;
     }
 
-    public void setJenis_sayapString(String jenis_sayapString) {
-        this.jenis_sayapString = jenis_sayapString;
+    public void setJenis_sayap(String jenis_sayap) {
+        this.jenis_sayap = jenis_sayap;
     }
-    
+
 }

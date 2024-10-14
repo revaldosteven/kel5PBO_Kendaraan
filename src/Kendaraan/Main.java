@@ -96,6 +96,7 @@ public class Main {
          pesawat.setkecepatan_maksimal("950 KM");
          pesawat.setbahan_bakar("Avtur");
          pesawat.setfitur("Kabin, AC, Toilet");
+         pesawat.setJenis_sayap("Sayap Tetap");
          
          System.out.println("\t Pesawat");
          System.out.println("Tipe                : " + pesawat.gettipe());
@@ -103,6 +104,7 @@ public class Main {
          System.out.println("Kecepatan Maksimal  : " + pesawat.getkecepatan_maksimal());
          System.out.println("Bahan Bakar         : " + pesawat.getbahan_bakar());
          System.out.println("Fitur               : " + pesawat.getfitur());
+         System.out.println("Jenis Sayap         : " + pesawat.getJenis_sayap());
          
          Yusron_Bus bus = new Yusron_Bus();
          
