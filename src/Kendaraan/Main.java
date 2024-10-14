@@ -17,6 +17,7 @@ public class Main {
          mobil.setkecepatan_maksimal("180 KM");
          mobil.setbahan_bakar("Bensin");
          mobil.setfitur("AC, Airbags, ABS");
+         mobil.setJumlah_pintu("4");
          
          System.out.println("\t Mobil");
          System.out.println("Tipe                : " + mobil.gettipe());
@@ -24,6 +25,7 @@ public class Main {
          System.out.println("Kecepatan Maksimal  : " + mobil.getkecepatan_maksimal());
          System.out.println("Bahan Bakar         : " + mobil.getbahan_bakar());
          System.out.println("Fitur               : " + mobil.getfitur());
+         System.out.println("Jumlah Pintu        : " + mobil.getJumlah_pintu());
          
          Wifna_Kapal kapal = new Wifna_Kapal();
          
