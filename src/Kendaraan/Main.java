@@ -49,7 +49,7 @@ public class Main {
          motor.setkecepatan_maksimal("160 KM");
          motor.setbahan_bakar("Bensin");
          motor.setfitur("CBS/ABS, Electric Starter, Lampu LED");
-         motor.setJenis_mesin("2 tak");
+         motor.setJenis_mesin("2 Tak");
          
          System.out.println("\t Motor");
          System.out.println("Tipe                : " + motor.gettipe());
@@ -66,6 +66,7 @@ public class Main {
          keretaapi.setkecepatan_maksimal("600 KM");
          keretaapi.setbahan_bakar("Listrik");
          keretaapi.setfitur("Kecepatan Tinggi, AC, USB Charger");
+         keretaapi.setTipe_jalur("Rel Listrik");
          
          System.out.println("\t Kereta Api");
          System.out.println("Tipe                : " + keretaapi.gettipe());
@@ -73,6 +74,7 @@ public class Main {
          System.out.println("Kecepatan Maksimal  : " + keretaapi.getkecepatan_maksimal());
          System.out.println("Bahan Bakar         : " + keretaapi.getbahan_bakar());
          System.out.println("Fitur               : " + keretaapi.getfitur());
+         System.out.println("Tipe Jalur          : " + keretaapi.getTipe_jalur());
 
          Lutfi_Truk truk = new Lutfi_Truk();
          
