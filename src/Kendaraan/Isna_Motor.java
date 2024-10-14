@@ -18,5 +18,5 @@ public class Isna_Motor extends kendaraan{
     public void setJenis_mesin(String jenis_mesin) {
         this.jenis_mesin = jenis_mesin;
     }
-    
+       
 }
