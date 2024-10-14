@@ -85,6 +85,7 @@ public class Main {
          truk.setkecepatan_maksimal("160 KM");
          truk.setbahan_bakar("Solar");
          truk.setfitur("Sistem Navigasi, Kamera Belakang, Kontrol Stabilitas");
+         truk.setTipe_muatan("Muatan Barang");
          
          System.out.println("\t Truk ");
          System.out.println("Tipe                : " + truk.gettipe());
@@ -92,6 +93,7 @@ public class Main {
          System.out.println("Kecepatan Maksimal  : " + truk.getkecepatan_maksimal());
          System.out.println("Bahan Bakar         : " + truk.getbahan_bakar());
          System.out.println("Fitur               : " + truk.getfitur());
+         System.out.println("Tipe Muatan         : " + truk.getTipe_muatan());
          
          Roni_Pesawat pesawat = new Roni_Pesawat();
          
